@@ -1,0 +1,28 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "http-status": "^2.1.0",
+        "mongoose": "^8.13.2",
+        "ts-node-dev": "^2.0.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.24.0",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^5.0.1",
+        "eslint": "^9.24.0",
+        "globals": "^16.0.0",
+        "typescript-eslint": "^8.30.1"
+    }
+}
