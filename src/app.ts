@@ -1,11 +1,12 @@
 import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
+import config from './app/config';
 
 const app: Application = express();
 app.use(express.json());
 app.use(
     cors({
-        origin: 'http://localhost:3000',
+        origin: config.origin,
         credentials: true,
     })
 );
